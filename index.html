@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royal Foods</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src="image/Logo.png" alt="Royal Foods">
+            <style>
+                .logo img {
+                    max-width: 125px; /* Adjust this value as needed */
+                    height: auto; /* Maintain aspect ratio */
+                }
+            </style>
+        </div>
+        <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Freshness Delivered to Your Doorstep</h2>
+            <p>Explore our variety of high-quality, fresh, and healthy foods.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div class="products-grid">
+            <div class="product-item">
+                <img src="image/Siomai.jpg" alt="Product 1">
+                <h3>Pork Siomai</h3>
+                <p>₱20.00</p>
+            </div>
+            <div class="product-item">
+                <img src="image/Siopao.jpg" alt="Product 2">
+                <h3>Pork Siopao</h3>
+                <p>₱10.00</p>
+            </div>
+            <div class="product-item">
+                <img src="image/Corndog.jpg" alt="Product 3">
+                <h3>Corndog</h3>
+                <p>₱25.00</p>
+            </div>
+        </div>
+    </section>
+    <script src="nav-toggle.js"></script>
+    <!-- About Us Section -->
+    <section id="about" class="about-section">
+        <h2>About Royal Foods</h2>
+        <p>Royal Foods is dedicated to bringing the freshest and highest-quality ingredients to your kitchen. With a strong focus on sustainability and local sourcing, we pride ourselves on serving our customers with products they can trust.</p>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Royal Foods | All rights reserved.</p>
+        <div class="social">
+            <a href="https://www.facebook.com/janrey.cordial.7" target="_blank">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
